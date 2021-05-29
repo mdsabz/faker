@@ -5,7 +5,20 @@ Had to set up some fake data to test the file transfer and the upper limits in t
 
 ## Setting up the Dev Environment
 **VSCODE** is the development tool used, have python installed, I have python 3.8.
-You could set up your project directory with git or simply clone the repository.
+
+Create a local folder for your project
+- Set up your project directory
+  `cd <localdir>`
+- Clone the repository into your project directory 
+  `git clone https://github.com/mdsabz/faker.git`
+- Open up a command Python Terminal in VSCODE (Ctrl+Shift+P, Python: Terminal)
+- Set up a virtual environment by specifying the command
+`python -m venv venv`
+- Make the changes to the RECORD_COUNT constant depending upon the size of the file required. 100000 would give a 15MB fiie.
+- From the python terminal, run the script
+    `python test.py`
+  
+Alternatively, you could set up your project directory with your own git repository.
 - Set up your project directory
   `cd <localdir>`
 - Initialize as a git repository
@@ -16,11 +29,6 @@ You could set up your project directory with git or simply clone the repository.
   `git remote add origin <url>`
 - Push to your remote repository
   `git push -u origin master`
-
-You could also clone the repository in your project directory
-- Clone the repository into your project directory 
-  `git clone https://github.com/mdsabz/faker.git`
-- Open up a command Python Terminal (Ctrl+Shift+P, Python: Terminal)
 - Set up a virtual environment by specifying the command
 `python -m venv venv`
 
