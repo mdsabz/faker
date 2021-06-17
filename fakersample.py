@@ -5,7 +5,7 @@ from decimal import Decimal
 from faker import Faker
 
 #RECORD_COUNT = 100000 # 100000 = 15MB, 1GB = 1024MB/15MB=68
-RECORD_COUNT = 100000*68 # 100000 = 15MB, 1GB = 1024MB/15MB=68
+RECORD_COUNT = 2 # 100000 = 15MB, 1GB = 1024MB/15MB=68
 fake = Faker()
 
 
@@ -52,6 +52,7 @@ def get_totals():
 
 if __name__ == '__main__':
     start = time()
+    print('starting the job')
     create_csv_file()
     elapsed = time() - start
     print('created csv file time: {}'.format(elapsed))

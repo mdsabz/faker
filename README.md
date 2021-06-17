@@ -17,6 +17,8 @@ Create a local folder for your project
 - Make the changes to the RECORD_COUNT constant depending upon the size of the file required. 100000 would give a 15MB fiie.
 - From the python terminal, run the script
     `python test.py`
+    `D:\temp> python fakersample.py`  
+    `D:\temp> & "C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0/python3.8.exe" d:/sources/trials/tempo/fakersample.py`
   
 Alternatively, you could set up your project directory with your own git repository.
 - Set up your project directory
